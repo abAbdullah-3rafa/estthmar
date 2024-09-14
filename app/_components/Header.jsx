@@ -22,7 +22,12 @@ const Header = () => {
 <header className="fixed top-0 left-0 w-full bg-white shadow-lg z-50 ">
   <div className=" mx-auto flex h-16 max-w-screen-3xl items-center gap-20 px-4 sm:px-6 lg:px-8 shadow-md">
     <div className="flex justify-center w-[100px]">
-      <Image src="/pngegg.png" alt="logo" width={50} height={50}/>
+      <a>
+        <Link href="/Home">
+              <Image src="/pngegg.png" alt="logo" width={50} height={50} />
+        </Link>
+      </a>
+      
     </div>
 
     <div className="flex flex-1 items-center justify-end md:justify-between text-lg">
